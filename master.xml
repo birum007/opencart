@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+
+	<listeners>
+
+		<listener class-name="utillities.ExtentReportManager" />
+	</listeners>
+	<test thread-count="5" name="Test">
+
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="chrome" />
+
+
+		<classes>
+			 <class name="testCases.TC001_AccountRegistrationTest"/> 
+<!--			  <class name="testCases.TC002_LoginTest"/> -->
+<!--			  <class name="testCases.TC003_LoginDDT"/> -->
+			<class name="testCases.TC_LG_003" />
+			<!--			<class name="testCases.TC_LG_011" />-->
+			<!--			<class name="testCases.TC_SF_001_SearchFunctionalityTest" />-->
+			<!--			<class name="testCases.TC_SF_002_Search_Functionality" />-->
+			<!--			<class name="testCases.TC_SF_005_Search_Functionality" />-->
+			<!--			<class name="testCases.TC_SF_009_SearchFuntion" />-->
+			<!--			<class name="testCases.TC_SF_010_SearchFunction" />-->
+			<!--			<class name="testCases.TC_PC_001_ProductComparison" />-->
+			<!--			<class name="testCases.TC_PC_010_ProductComparison" />-->
+			<!--			<class name="testCases.TC_PC_011_ProductCompare" />-->
+			<!--			<class name="testCases.TC_PC_012_ProductCompare" />-->
+			<!--			<class name="testCases.TC_PC_013_ProductCompare" />-->
+			<!--			<class name="testCases.TC_PC_014_Product_Comparison" />-->
+			<!--			<class name="testCases.TC_PC_015_Product_Compare" />-->
+			<!--			<class name="testCases.TC_PC_017_Product_Compare" />-->
+			<!--			<class name="testCases.TC_PC_018_Product_Compare" />-->
+			<!--			<class name="testCases.TC_PC_019_Product_Compare" />-->
+			<!--			<class name="testCases.TC_PC_020_Product_Compare" />-->
+<!--						<class name="testCases.TC_PC_021_Product_Comparison" />-->
+<!--						<class name="testCases.TC_PC_022_Compare_Product" />-->
+<!--						<class name="testCases.TC_PC_023_Product_Compare" />-->
+
+
+
+		</classes>
+	</test>
+</suite> 
