@@ -28,16 +28,25 @@ public class TC_PC_022_Compare_Product extends BaseClass {
 		WebDriverWait  wait =new WebDriverWait(driver, Duration.ofSeconds(10));
 	    wait.until(ExpectedConditions.urlContains("product/compare"));
 
-	    String actualHeading = "Product Comparison";
+//	    String actualHeading = "Product Comparison";
+////		
+////		Assert.assertEquals(actualHeading, productComparisonPage.getHeading());
+////		
+//		String actualTitle="Product Comparison";	
 //		
+//		String actualUrl="https://tutorialsninja.com/demo/index.php?route=product/compare";
+//		Assert.assertEquals(actualUrl, productComparisonPage.getURL());
 //		Assert.assertEquals(actualHeading, productComparisonPage.getHeading());
+//		Assert.assertEquals(actualTitle, productComparisonPage.getTitle());
+	    String expectedHeading = "Product Comparison";
+	    String expectedTitle   = "Product Comparison";
+	    String expectedUrl     = "https://tutorialsninja.com/demo/index.php?route=product/compare";
+
 //		
-		String actualTitle="Product Comparison";	
+		Assert.assertEquals(productComparisonPage.getURL(), expectedUrl, "URL mismatch!");
+		Assert.assertEquals(productComparisonPage.getHeading(), expectedHeading, "Heading mismatch!");
+		Assert.assertEquals(productComparisonPage.getTitle(), expectedTitle, "Page title mismatch!");
 		
-		String actualUrl="https://tutorialsninja.com/demo/index.php?route=product/compare";
-		Assert.assertEquals(actualUrl, productComparisonPage.getURL());
-		Assert.assertEquals(actualHeading, productComparisonPage.getHeading());
-		Assert.assertEquals(actualTitle, productComparisonPage.getTitle());
 
 	
 	}

@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_PC_023_Product_Compare">
+      <class name="testCases.TC003_LoginDDT">
         <methods>
           <include name="tearDown"/>
-          <include name="validateTC_PC_023_Product_Compare"/>
+          <include name="verify_loginDDT" invocation-numbers="2 3 4"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_PC_023_Product_Compare -->
+      </class> <!-- testCases.TC003_LoginDDT -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
