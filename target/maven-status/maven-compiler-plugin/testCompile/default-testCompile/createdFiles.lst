@@ -20,6 +20,7 @@ testCases\TC_PC_015_Product_Compare.class
 testCases\TC_SF_002_Search_Functionality.class
 utillities\Helper.class
 testCases\TC_SF_010_SearchFunction.class
+testCases\Test001Git.class
 testCases\TC_PC_011_ProductCompare.class
 testCases\TC002_LoginTest.class
 testCases\TC_SF_005_Search_Functionality.class

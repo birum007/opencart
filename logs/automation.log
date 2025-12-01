@@ -1,0 +1,8 @@
+2025-12-02 00:02:03 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-02 00:02:07 INFO  TC001_AccountRegistrationTest:15 - *******Starting  TC001_AccountRegistrationTest**********
+2025-12-02 00:02:07 INFO  TC001_AccountRegistrationTest:18 - ---------clicked on MyAccount--------
+2025-12-02 00:02:08 INFO  TC001_AccountRegistrationTest:20 - ------clicked on register link----
+2025-12-02 00:02:08 INFO  TC001_AccountRegistrationTest:24 - -----providing customer details------
+2025-12-02 00:02:09 INFO  TC001_AccountRegistrationTest:38 - --validating confirmation message-----
+2025-12-02 00:02:11 INFO  TC_LG_003:16 - *********TC_LG_003 _Logout_test*****
+2025-12-02 00:02:13 INFO  TC_LG_003:33 - ********Finished TC_LG_003 _Logout_testt**********
