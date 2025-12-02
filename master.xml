@@ -37,6 +37,8 @@
 			<class name="testCases.TC_PC_021_Product_Comparison" />
 			<class name="testCases.TC_PC_022_Compare_Product" />
 			<class name="testCases.TC_PC_023_Product_Compare" />
+			<class name="testCases.TC_ATC_001" />
+			<class name="testCases.TC_ATC_002" />
 
 
 		</classes>

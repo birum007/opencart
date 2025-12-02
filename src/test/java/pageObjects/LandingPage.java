@@ -82,6 +82,8 @@ public class LandingPage extends BasePage {
 
 	@FindBy(xpath = "//*[@id='content']/h1")
 	private WebElement msgproductComparison;
+	
+	
 	// continou button
 
 	@FindBy(xpath = "//*[@class='btn btn-default']")
@@ -130,7 +132,7 @@ public class LandingPage extends BasePage {
 	public void hoverToDesktops() {
 		Actions action = new Actions(driver);
 		action.moveToElement(menuDesktops).perform();
-		;
+		
 	}
 
 	public void clickImac() {
