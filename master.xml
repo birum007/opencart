@@ -20,6 +20,9 @@
 			<class name="testCases.TC_LG_011" />
 			<class name="testCases.TC_SF_001_SearchFunctionalityTest" />
 			<class name="testCases.TC_SF_002_Search_Functionality" />
+			<class name="testCases.TC_SF_005" />
+			<class name="testCases.TC_SF_009" />
+			<class name="testCases.TC_SF_010" />
 			<class name="testCases.TC_SF_005_Search_Functionality" />
 			<class name="testCases.TC_SF_009_SearchFuntion" />
 			<class name="testCases.TC_SF_010_SearchFunction" />

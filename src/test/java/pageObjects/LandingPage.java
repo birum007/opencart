@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -108,6 +109,23 @@ public class LandingPage extends BasePage {
 	
 	@FindBy(xpath="//a[normalize-space()='product comparison']")
 	WebElement compareProductlnk;
+	
+	//Test case TC_SF_005
+	
+	@FindBy(xpath="//*[@class='caption']//a")
+	List<WebElement> macProductsSearchresult;
+	
+	//Test case TC_SF_009
+	
+	@FindBy(xpath="//*[text()='iMac']")
+	WebElement searchResultImac;
+	
+	@FindBy(xpath="//*[text()='There is no product that matches the search criteria.']")
+	WebElement noMatchSearch;
+	
+	//Test case TC_SF_010
+	@FindBy(xpath="//*[@name='sub_category']")
+	WebElement chekboxSubcategory;
 
 	public void clickHomebtn() {
 		homebtn.click();
@@ -149,9 +167,10 @@ public class LandingPage extends BasePage {
 
 	}
 
-	public void selectFromDropdownByText(String value) {
+	public String selectFromDropdownByText(String value) {
 		Select select = new Select(catdropdown);
-		select.selectByValue(value);
+		select.selectByContainsVisibleText(value);
+		return value;
 
 	}
 
@@ -171,8 +190,8 @@ public class LandingPage extends BasePage {
 		return prdimac.isDisplayed();
 	}
 
-	public boolean foundPrd() {
-		return confmsg.isDisplayed();
+	public String foundPrd() {
+		return confmsg.getText();
 	}
 
 	public void setKeyword(String prdname) {
@@ -215,4 +234,32 @@ public class LandingPage extends BasePage {
 	public void clickCompareProductlnk() {
 		compareProductlnk.click();
 	}
+	
+	public List<String>  getMacProductsSearchresult()
+	{
+		//return macProductsSearchresult
+	     List<String> namesList = new ArrayList<>();
+
+		for(WebElement w : macProductsSearchresult)
+		{
+			namesList.add(w.getText());
+		}
+		return namesList;
+	}
+	
+	public boolean ShowsearchResultImac()
+	{
+		return searchResultImac.isDisplayed();
+	}
+	
+	public String ShownoMatchSearch()
+	{
+		return noMatchSearch.getText();
+	}
+	
+	public void clickCheckBoxsubCategory()
+	{
+		chekboxSubcategory.click();
+	}
+	
 }

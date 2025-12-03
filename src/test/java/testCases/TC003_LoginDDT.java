@@ -30,8 +30,8 @@ public class TC003_LoginDDT extends BaseClass {
 		
 		//Login Page
 		LoginPage login=new LoginPage(driver);
-		login.setEmailAddress(p.getProperty("email"));
-		login.setPassword(p.getProperty("password"));
+		login.setEmailAddress("username");
+		login.setPassword("password");
 		login.clickLogin();
 		
 		MyAccountPage map=new MyAccountPage(driver);

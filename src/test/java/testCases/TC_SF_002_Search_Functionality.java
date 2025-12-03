@@ -16,9 +16,9 @@ public class TC_SF_002_Search_Functionality extends BaseClass {
 		LandingPage lp = new LandingPage(driver);
 		lp.search("Fitbit");
 		lp.clickButton();
-		;
+		
 		try {
-			Assert.assertFalse(lp.foundPrd());
+			Assert.assertEquals(lp.foundPrd(), "Fitbit");
 		} catch (Exception e) {
 			e.getMessage();
 		}
