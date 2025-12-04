@@ -29,9 +29,9 @@ public class TC_PC_022_Compare_Product extends BaseClass {
 	    wait.until(ExpectedConditions.urlContains("product/compare"));
 
 //	    String actualHeading = "Product Comparison";
-////		
-////		Assert.assertEquals(actualHeading, productComparisonPage.getHeading());
-////		
+//		
+	//	Assert.assertEquals(actualHeading, productComparisonPage.getHeading());
+		
 //		String actualTitle="Product Comparison";	
 //		
 //		String actualUrl="https://tutorialsninja.com/demo/index.php?route=product/compare";

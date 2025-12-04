@@ -1,6 +1,7 @@
 package pageObjects;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -105,27 +106,48 @@ public class LandingPage extends BasePage {
 	//macBook Pro
 	
 	@FindBy(xpath="//*[@id='content']//*[@class='image']")
-	WebElement macBookPro; 
+	private WebElement macBookPro; 
 	
 	@FindBy(xpath="//a[normalize-space()='product comparison']")
-	WebElement compareProductlnk;
+	private WebElement compareProductlnk;
 	
 	//Test case TC_SF_005
 	
 	@FindBy(xpath="//*[@class='caption']//a")
-	List<WebElement> macProductsSearchresult;
+	private List<WebElement> macProductsSearchresult;
 	
 	//Test case TC_SF_009
 	
 	@FindBy(xpath="//*[text()='iMac']")
-	WebElement searchResultImac;
+	private WebElement searchResultImac;
 	
 	@FindBy(xpath="//*[text()='There is no product that matches the search criteria.']")
-	WebElement noMatchSearch;
+	private WebElement noMatchSearch;
 	
 	//Test case TC_SF_010
 	@FindBy(xpath="//*[@name='sub_category']")
-	WebElement chekboxSubcategory;
+	private WebElement chekboxSubcategory;
+	
+	//Testcase TC_SF_013
+	
+	@FindBy(xpath="//*[@id='compare-total']")
+	private WebElement lnkCompareproduct;
+	
+	@FindBy(xpath="//*[@id='content']/h1")
+	private WebElement msgProductComaprison;
+	
+	//TC TC_SF_014
+	
+	@FindBy(xpath="//*[@class='product-layout product-list col-xs-12']/div/div/a")
+	private List<WebElement > productSearchresult;
+	
+	@FindBy(xpath="//*[@id='input-sort']")
+	private WebElement sortDropdown;
+	
+	@FindBy(xpath="//*[@class='caption']/h4")
+	private List<WebElement> productList;
+	@FindBy(xpath="//*[@id=\"list-view\"]")
+	private WebElement btnList;
 
 	public void clickHomebtn() {
 		homebtn.click();
@@ -260,6 +282,75 @@ public class LandingPage extends BasePage {
 	public void clickCheckBoxsubCategory()
 	{
 		chekboxSubcategory.click();
+	}
+	public void clickLink()
+	{
+		lnkCompareproduct.click();
+	}
+	
+	public String ShowProductComparisonmsg()
+	{
+		return msgProductComaprison.getText();
+	}
+	
+	public boolean getProductResultSize()
+	{
+		boolean prdsizeFlag=true;
+		//return productSearchresult.size();
+		
+		if(productSearchresult.size()>1)
+		{
+			prdsizeFlag = true;
+		}
+		else
+		{
+			prdsizeFlag = false;	
+		}
+		return prdsizeFlag ;
+	}
+	
+	public  void selectDropdown(String value)
+	{
+		Select select= new Select(sortDropdown);
+		
+		 select.selectByVisibleText(value);
+	}
+	
+	public boolean validateSorting(String criteria)
+	
+	{
+		boolean status= true;
+		List<String> actualNames = new ArrayList<String>();
+		
+		for(WebElement product : productList)
+		{
+			actualNames.add(product.getText().trim());
+		}
+		
+		List<String> expectedNames = new ArrayList<>(actualNames);
+		
+		if(criteria.equals("Name (A - Z)"))
+		{
+			Collections.sort(expectedNames);
+		}
+		else if(criteria.equals("Name (Z - A)"))
+		{
+			Collections.sort(expectedNames, Collections.reverseOrder());
+		}
+		
+		if(expectedNames.equals(actualNames))
+		{
+			status=true;
+		}
+		else
+		{
+			status=false;
+		}
+		return status;
+	}
+	public void clickBtnList()
+	{
+		btnList.click();
 	}
 	
 }

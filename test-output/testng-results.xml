@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-04T00:51:36 IST" name="Master Suite" finished-at="2025-12-04T00:51:43 IST" duration-ms="7074">
+  <suite started-at="2025-12-05T01:39:37 IST" name="Master Suite" finished-at="2025-12-05T01:39:42 IST" duration-ms="4810">
     <groups>
       <group name="master">
-        <method signature="TC_SF_010.validateTC_SF_010()[pri:0, instance:testCases.TC_SF_010@625abb97]" name="validateTC_SF_010" class="testCases.TC_SF_010"/>
+        <method signature="TC_SF_014.validateProductSort()[pri:0, instance:testCases.TC_SF_014@625abb97]" name="validateProductSort" class="testCases.TC_SF_014"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2025-12-04T00:51:36 IST" name="Test" finished-at="2025-12-04T00:51:43 IST" duration-ms="7074">
-      <class name="testCases.TC_SF_010">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_010@625abb97]" started-at="2025-12-04T00:51:37 IST" name="setup" finished-at="2025-12-04T00:51:41 IST" duration-ms="4451" status="PASS">
+    <test started-at="2025-12-05T01:39:37 IST" name="Test" finished-at="2025-12-05T01:39:42 IST" duration-ms="4810">
+      <class name="testCases.TC_SF_014">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SF_014@625abb97]" started-at="2025-12-05T01:39:37 IST" name="setup" finished-at="2025-12-05T01:39:40 IST" duration-ms="2675" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateTC_SF_010()[pri:0, instance:testCases.TC_SF_010@625abb97]" started-at="2025-12-04T00:51:41 IST" name="validateTC_SF_010" finished-at="2025-12-04T00:51:43 IST" duration-ms="1831" status="PASS">
+        <test-method signature="validateProductSort()[pri:0, instance:testCases.TC_SF_014@625abb97]" started-at="2025-12-05T01:39:40 IST" name="validateProductSort" finished-at="2025-12-05T01:39:41 IST" duration-ms="1429" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTC_SF_010 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_010@625abb97]" started-at="2025-12-04T00:51:43 IST" name="tearDown" finished-at="2025-12-04T00:51:43 IST" duration-ms="389" status="PASS">
+        </test-method> <!-- validateProductSort -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SF_014@625abb97]" started-at="2025-12-05T01:39:41 IST" name="tearDown" finished-at="2025-12-05T01:39:42 IST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SF_010 -->
+      </class> <!-- testCases.TC_SF_014 -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>
