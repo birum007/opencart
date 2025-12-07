@@ -1,4 +1,5 @@
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\pageObjects\AccountRegistrationPage.java
+C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\pageObjects\AddToCartPage.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\pageObjects\BasePage.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\pageObjects\HomePage.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\pageObjects\LandingPage.java
@@ -9,6 +10,8 @@ C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testBase\BaseClass.ja
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC001_AccountRegistrationTest.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC002_LoginTest.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC003_LoginDDT.java
+C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_ATC_001.java
+C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_ATC_002.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_LG_003.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_LG_011.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_PC_001_ProductComparison.java
@@ -25,11 +28,17 @@ C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_PC_020_P
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_PC_021_Product_Comparison.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_PC_022_Compare_Product.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_PC_023_Product_Compare.java
+C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_PC_024.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_001_SearchFunctionalityTest.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_002_Search_Functionality.java
+C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_005.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_005_Search_Functionality.java
+C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_009.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_009_SearchFuntion.java
+C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_010.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_010_SearchFunction.java
+C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_013.java
+C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\TC_SF_014.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\testCases\Test001Git.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\utillities\DataProviders.java
 C:\Users\Birendra\eclipse-workspace\opencart\src\test\java\utillities\ExcelUtility.java

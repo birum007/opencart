@@ -43,9 +43,9 @@ public class TC_PC_022_Compare_Product extends BaseClass {
 	    String expectedUrl     = "https://tutorialsninja.com/demo/index.php?route=product/compare";
 
 //		
-		Assert.assertEquals(productComparisonPage.getURL(), expectedUrl, "URL mismatch!");
-		Assert.assertEquals(productComparisonPage.getHeading(), expectedHeading, "Heading mismatch!");
-		Assert.assertEquals(productComparisonPage.getTitle(), expectedTitle, "Page title mismatch!");
+		Assert.assertEquals(productComparisonPage.getURL(), expectedUrl);
+		Assert.assertEquals(productComparisonPage.getHeading(), expectedHeading);
+		Assert.assertEquals(productComparisonPage.getTitle(), expectedTitle);
 		
 
 	
