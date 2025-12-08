@@ -44,6 +44,9 @@
 			<class name="testCases.TC_ATC_002" />
 			<class name="testCases.TC_SF_013" />
 			<class name="testCases.TC_SF_014" />
+			<class name="testCases.TC_ATC_003" />
+			<class name="testCases.TC_ATC_004" />
+			
 
 
 		</classes>

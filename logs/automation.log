@@ -1,143 +1,20 @@
-2025-12-07 19:57:14 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 19:57:14 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml
+2025-12-09 00:03:54 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-09 00:03:55 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-07 19:57:18 INFO  TC_LG_003:16 - *********TC_LG_003 _Logout_test*****
-2025-12-07 19:57:20 INFO  TC_LG_003:33 - ********Finished TC_LG_003 _Logout_testt**********
-2025-12-07 19:57:26 INFO  TC_LG_003:16 - *********TC_LG_003 _Logout_test*****
-2025-12-07 19:57:28 INFO  TC_LG_003:33 - ********Finished TC_LG_003 _Logout_testt**********
-2025-12-07 19:57:33 INFO  TC_LG_003:16 - *********TC_LG_003 _Logout_test*****
-2025-12-07 19:57:35 INFO  TC_LG_003:33 - ********Finished TC_LG_003 _Logout_testt**********
-2025-12-07 19:59:33 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-07 19:59:33 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 19:59:33 WARN  TestNG:133 - Ignoring duplicate listener : utillities.ExtentReportManager
-2025-12-07 19:59:36 INFO  TC_SF_014:14 - starting ********** TC_SF_014 *********
-2025-12-07 19:59:36 INFO  TC_SF_014:23 - *************ER1 is completed***********************
-2025-12-07 19:59:40 INFO  TC_LG_003:16 - *********TC_LG_003 _Logout_test*****
-2025-12-07 19:59:42 INFO  TC_LG_003:33 - ********Finished TC_LG_003 _Logout_testt**********
-2025-12-07 19:59:45 INFO  TC_LG_003:16 - *********TC_LG_003 _Logout_test*****
-2025-12-07 19:59:46 INFO  TC_LG_003:33 - ********Finished TC_LG_003 _Logout_testt**********
-2025-12-07 19:59:51 INFO  TC_LG_003:16 - *********TC_LG_003 _Logout_test*****
-2025-12-07 19:59:53 INFO  TC_LG_003:33 - ********Finished TC_LG_003 _Logout_testt**********
-2025-12-07 20:22:00 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 20:22:01 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml
+2025-12-09 00:04:00 INFO  TC_ATC_004:15 - Starting ***************TC_ATC_004****************************
+2025-12-09 00:05:13 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-09 00:05:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-07 20:22:45 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 20:22:45 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml
+2025-12-09 00:05:16 INFO  TC_ATC_004:15 - Starting ***************TC_ATC_004****************************
+2025-12-09 00:09:59 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-09 00:09:59 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-07 20:23:58 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 20:23:58 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml
+2025-12-09 00:10:03 INFO  TC_ATC_004:15 - Starting ***************TC_ATC_004****************************
+2025-12-09 00:13:28 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-09 00:13:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-07 20:24:43 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-07 20:24:43 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 20:24:43 WARN  TestNG:133 - Ignoring duplicate listener : utillities.ExtentReportManager
-2025-12-07 20:24:45 INFO  TC_SF_014:14 - starting ********** TC_SF_014 *********
-2025-12-07 20:24:46 INFO  TC_SF_014:23 - *************ER1 is completed***********************
-2025-12-07 20:25:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 20:25:30 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml
-
-2025-12-07 20:26:47 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-07 20:26:47 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 20:26:47 WARN  TestNG:133 - Ignoring duplicate listener : utillities.ExtentReportManager
-2025-12-07 20:26:50 INFO  TC_SF_014:14 - starting ********** TC_SF_014 *********
-2025-12-07 20:26:50 INFO  TC_SF_014:23 - *************ER1 is completed***********************
-2025-12-07 20:27:38 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-07 20:27:38 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 20:27:38 WARN  TestNG:133 - Ignoring duplicate listener : utillities.ExtentReportManager
-2025-12-07 20:27:40 INFO  TC_SF_014:14 - starting ********** TC_SF_014 *********
-2025-12-07 20:27:41 INFO  TC_SF_014:23 - *************ER1 is completed***********************
-2025-12-07 20:28:36 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\AppData\Local\Temp\testng-eclipse-675203040\testng-customsuite.xml"
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Birendra\AppData\Local\Temp\testng-eclipse-675203040\testng-customsuite.xml
-
-2025-12-07 20:28:36 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
-2025-12-07 20:28:36 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@44c79f32: 47 ms
-2025-12-07 20:28:36 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@6175619b: 9 ms
-2025-12-07 20:28:36 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@117e0fe5: 8 ms
-2025-12-07 20:28:36 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@35beb15e: 6 ms
-2025-12-07 20:28:36 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@53ab0286: 6 ms
-2025-12-07 20:28:36 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@63c5efee: 0 ms
-2025-12-07 20:29:37 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\AppData\Local\Temp\testng-eclipse--1431389133\testng-customsuite.xml"
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Birendra\AppData\Local\Temp\testng-eclipse--1431389133\testng-customsuite.xml
-
-2025-12-07 20:29:37 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
-2025-12-07 20:29:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@44c79f32: 53 ms
-2025-12-07 20:29:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@6175619b: 12 ms
-2025-12-07 20:29:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@117e0fe5: 7 ms
-2025-12-07 20:29:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@35beb15e: 7 ms
-2025-12-07 20:29:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@53ab0286: 7 ms
-2025-12-07 20:29:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@63c5efee: 0 ms
-2025-12-07 20:31:20 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 20:31:20 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml
-
-2025-12-07 20:32:20 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-07 20:32:20 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml"
-2025-12-07 20:32:20 WARN  TestNG:133 - Ignoring duplicate listener : utillities.ExtentReportManager
-2025-12-07 20:32:27 INFO  TC_SF_014:14 - starting ********** TC_SF_014 *********
-2025-12-07 20:32:28 INFO  TC_SF_014:23 - *************ER1 is completed***********************
+2025-12-09 00:13:30 INFO  TC_ATC_004:15 - Starting ***************TC_ATC_004****************************

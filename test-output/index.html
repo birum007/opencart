@@ -50,12 +50,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Master_Suite" class="navigator-link ">
-                    <span>C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml</span>
+                    <span>C:\Users\Birendra\eclipse-workspace\opencart\master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Master_Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +103,7 @@
                     <div class="method-list-content passed suite-Master_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_PC_024" class="method navigator-link" hash-for-method="validateCrossbrowserFun">validateCrossbrowserFun</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_PC_024" class="method navigator-link" hash-for-method="validateCrossbrowserFun">validateCrossbrowserFun</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_PC_024" class="method navigator-link" hash-for-method="validateCrossbrowserFun">validateCrossbrowserFun</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC_ATC_004" class="method navigator-link" hash-for-method="validateTC_ATC_004">validateTC_ATC_004</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Master_Suite -->
@@ -131,28 +121,14 @@
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC_PC_024</span>
+              <span class="class-name">testCases.TC_ATC_004</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateCrossbrowserFun">
-                  </a> <!-- validateCrossbrowserFun -->
-                  <span class="method-name">validateCrossbrowserFun</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateCrossbrowserFun">
-                  </a> <!-- validateCrossbrowserFun -->
-                  <span class="method-name">validateCrossbrowserFun</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateCrossbrowserFun">
-                  </a> <!-- validateCrossbrowserFun -->
-                  <span class="method-name">validateCrossbrowserFun</span>
+                  <a name="validateTC_ATC_004">
+                  </a> <!-- validateTC_ATC_004 -->
+                  <span class="method-name">validateTC_ATC_004</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,47 +136,23 @@
         </div> <!-- panel Master_Suite -->
         <div panel-name="test-xml-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Birendra\eclipse-workspace\opencart\grouping.xml</span>
+            <span class="header-content">C:\Users\Birendra\eclipse-workspace\opencart\master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Master Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Master&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;Master&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utillities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; name=&quot;Test_chrome&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_PC_024&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_ATC_004&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test_chrome --&gt;
-  &lt;test thread-count=&quot;3&quot; name=&quot;Test_edge&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_PC_024&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test_edge --&gt;
-  &lt;test thread-count=&quot;3&quot; name=&quot;Test_firefox&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_PC_024&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test_firefox --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Master Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,13 +164,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test_chrome (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test_edge (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test_firefox (1 class)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -229,10 +175,10 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">Master</span>
+              <span class="test-group-name">master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">validateCrossbrowserFun</span>
+                <span class="method-in-group-name">validateTC_ATC_004</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -252,24 +198,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateCrossbrowserFun')
-data.setCell(0, 2, 'testCases.TC_PC_024')
-data.setCell(0, 3, 972);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateCrossbrowserFun')
-data.setCell(1, 2, 'testCases.TC_PC_024')
-data.setCell(1, 3, 883);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateCrossbrowserFun')
-data.setCell(2, 2, 'testCases.TC_PC_024')
-data.setCell(2, 3, 794);
+data.setCell(0, 1, 'validateTC_ATC_004')
+data.setCell(0, 2, 'testCases.TC_ATC_004')
+data.setCell(0, 3, 1544);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Master_Suite">
               </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
@@ -295,42 +233,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_PC_024</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_ATC_004</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-name">setup(Windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">validateCrossbrowserFun</span>
-                <span class="method-start">1989 ms</span>
+                <span class="method-name">validateTC_ATC_004</span>
+                <span class="method-start">2085 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2983 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, edge)</span>
-                <span class="method-start">4231 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">validateCrossbrowserFun</span>
-                <span class="method-start">6239 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">7035 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(windows, firefox)</span>
-                <span class="method-start">7423 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">validateCrossbrowserFun</span>
-                <span class="method-start">11238 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">12121 ms</span>
+                <span class="method-start">3641 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
