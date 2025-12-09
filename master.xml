@@ -12,7 +12,7 @@
 		<parameter name="browser" value="chrome" />
 
 
-		<classes>
+	<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
 			<class name="testCases.TC002_LoginTest" />
 			<class name="testCases.TC003_LoginDDT" />
@@ -46,6 +46,8 @@
 			<class name="testCases.TC_SF_014" />
 			<class name="testCases.TC_ATC_003" />
 			<class name="testCases.TC_ATC_004" />
+			<class name="testCases.TC_ATC_005" />
+			<class name="testCases.TC_ATC_006" />
 			
 
 

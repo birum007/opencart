@@ -1,9 +1,15 @@
 package pageObjects;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AddToCartPage extends BasePage {
 
@@ -70,7 +76,35 @@ public class AddToCartPage extends BasePage {
 	private WebElement lnkshoppingCart;
 	@FindBy(xpath="//*[@id='content']/form/div/table/tbody/tr/td[2]/a")
 	private WebElement prdIphone;
-
+	
+	//TC_ATC_005
+	
+	@FindBy(xpath="//*[text()='Desktops']")
+	private WebElement menuDesktops;
+	@FindBy(xpath="//*[text()='Show AllDesktops']")
+	private WebElement showAllDesktops;
+	@FindBy(xpath="//*[@id='column-left']/div/a[3]")
+	private WebElement leftMac;
+	@FindBy(xpath="//span[text()='Add to Cart']")
+	private WebElement btnMacAddtocart;
+	@FindBy(xpath="//*[@id='product-category']/div[1]")
+	private WebElement msgAfterCart;
+	@FindBy(xpath="//*[text()='shopping cart']")
+	private WebElement lnkShoapingcart;
+	@FindBy(xpath="//*[@id='content']/form/div/table/tbody[1]/tr/td[2]/a")
+	private WebElement prdConfirmationImac;
+	
+	//TC_ATC_006
+	@FindBy(xpath="//*[@id='content']/div[2]/div[1]/div/div[3]/button[1]")
+	private WebElement prdMacBook;
+	@FindBy(xpath="//*[text()='shopping cart']")
+	private WebElement lnkShoapingverify;
+	@FindBy(xpath="//span[contains(text(),'***')]/preceding-sibling::a")
+	private WebElement macBookprdVrf;
+	
+	
+	
+	
 	public void clickTocart() {
 		addTocartButton.click();
 
@@ -162,5 +196,54 @@ public class AddToCartPage extends BasePage {
 	public boolean DisplayprdIphone()
 	{
 		return prdIphone.isDisplayed();
+	}
+	
+	//TC_ATC_005
+	
+	public void mouseHoverActions()
+	{
+		Actions actions = new Actions(driver);
+		actions.moveToElement(menuDesktops).perform();
+	}
+	
+	public void clickshowAllDesktops()
+	{
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		WebElement showAllDesktops= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Show AllDesktops']")));
+		showAllDesktops.click();
+	}
+	public void clickleftMac()
+	{
+		leftMac.click();
+	}
+	public void clickbtnMacAddtocart()
+	{
+		btnMacAddtocart.click();
+	}
+	public boolean displayMsgSuccess()
+	{
+		return msgAfterCart.isDisplayed();
+	}
+	public void clicklnkShoapingcart()
+	{
+		lnkShoapingcart.click();
+	}
+	public boolean displayprdConfirmationImac()
+	{
+		return prdConfirmationImac.isDisplayed();
+	}
+	public void clickprdMacBook()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView", prdMacBook);
+		prdMacBook.click();
+	}
+	public void clicklnkShoapingverify()
+	{
+		lnkShoapingverify.click();
+	}
+	public boolean displaymacBookprdVrf()
+	{
+		return macBookprdVrf.isDisplayed();
 	}
 }
