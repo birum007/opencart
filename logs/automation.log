@@ -127,3 +127,84 @@
 2025-12-10 01:24:52 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
 2025-12-10 01:24:52 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
 2025-12-10 01:24:52 INFO  TC003_LoginDDT:25 - *******starting TC_003
+2025-12-10 22:27:15 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\AppData\Local\Temp\testng-eclipse-1592935359\testng-customsuite.xml"
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\AppData\Local\Temp\testng-eclipse-1592935359\testng-customsuite.xml
+
+2025-12-10 22:27:15 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2025-12-10 22:27:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@44c79f32: 68 ms
+2025-12-10 22:27:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@6175619b: 14 ms
+2025-12-10 22:27:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@117e0fe5: 10 ms
+2025-12-10 22:27:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@35beb15e: 7 ms
+2025-12-10 22:27:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@63c5efee: 7 ms
+2025-12-10 22:27:15 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2d10e0b1: 0 ms
+2025-12-10 22:27:54 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-10 22:27:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-10 22:27:58 INFO  TC_ATC_007:14 - **********************STARTING*****************TC_ATC_007*******************
+2025-12-10 22:34:33 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-10 22:34:33 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-10 22:34:37 INFO  TC_ATC_007:14 - **********************STARTING*****************TC_ATC_007*******************
+2025-12-10 22:42:33 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-10 22:42:34 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-10 22:42:36 INFO  TC_ATC_007:13 - **********************STARTING*****************TC_ATC_007*******************
+2025-12-10 22:53:38 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-10 22:53:38 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-10 22:53:41 INFO  TC_ATC_007:14 - **********************STARTING*****************TC_ATC_007*******************
+2025-12-10 23:09:11 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-10 23:09:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-10 23:09:14 INFO  TC_ATC_008:15 - Starting ************************TC_ATC_008**********************************
+2025-12-10 23:14:29 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-10 23:14:29 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-10 23:14:31 INFO  TC_ATC_008:15 - Starting ************************TC_ATC_008**********************************
+2025-12-10 23:26:45 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-10 23:26:45 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-10 23:26:48 INFO  TC_ATC_008:15 - Starting ************************TC_ATC_008**********************************
+2025-12-10 23:27:57 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-10 23:27:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-10 23:28:01 INFO  TC_ATC_008:15 - Starting ************************TC_ATC_008**********************************

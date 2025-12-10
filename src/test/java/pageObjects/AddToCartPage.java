@@ -102,11 +102,25 @@ public class AddToCartPage extends BasePage {
 	@FindBy(xpath="//span[contains(text(),'***')]/preceding-sibling::a")
 	private WebElement macBookprdVrf;
 	
+	//TC_ATC_008
+	
+	@FindBy(xpath="//*[contains(text(),' 1 item(s)')]")
+	private WebElement itemsCount;
+	
+	public boolean getTextitem()
+	{
+		return itemsCount.getText().contains("1 item(s)");
+	}
+	
 	
 	
 	
 	public void clickTocart() {
 		addTocartButton.click();
+
+	}
+	public String getTextAddTocart() {
+		return addTocartButton.getText();
 
 	}
 

@@ -220,6 +220,44 @@ public class Product_Comparison_Page extends BasePage {
 
 	@FindBy(xpath = "//*[@class='btn btn-danger btn-block']")
 	private WebElement removeButton;
+	
+	//TC_ATC_007
+	
+	@FindBy(xpath="//*[@data-original-title='Compare this Product']")
+	private WebElement comapareImac;
+	@FindBy(xpath="//*[text()='product comparison']")
+	private WebElement lnkproductComparison;
+	@FindBy(xpath="//*[@id='product-compare']/div[1]")
+	private WebElement successAddTocartmsg;
+	@FindBy(xpath="//*[text()='shopping cart']")
+	private WebElement lnkShoapingcart;
+	@FindBy(xpath="//*[@id='content']/form/div/table/tbody[1]/tr/td[2]/a")
+	private WebElement iMacproductcnf;
+	
+	public boolean displayiMacproductcnf()
+	{
+		return iMacproductcnf.isDisplayed();
+	}
+	
+	public void clicklnkShoapingcart()
+	{
+		lnkShoapingcart.click();
+	}
+	
+	public boolean DisplaysuccessAddTocartmsg()
+	{
+		return successAddTocartmsg.isDisplayed();
+	}
+	
+	public void clicklnkproductComparison()
+	{
+		lnkproductComparison.click();
+	}
+	
+	public void clickcomapareImac()
+	{
+		comapareImac.click();
+	}
 
 	public void clickLinkProductComaparison() {
 
@@ -444,6 +482,9 @@ public class Product_Comparison_Page extends BasePage {
 	}
 
 	public void clickbtnAddToCart() {
+		
+		JavascriptExecutor js =(JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView", btnAddToCart);
 		btnAddToCart.click();
 	}
 
