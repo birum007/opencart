@@ -50,6 +50,14 @@
 			<class name="testCases.TC_ATC_006" />
 			<class name="testCases.TC_ATC_007" />
 			<class name="testCases.TC_ATC_008" />
+			<class name="testCases.TC_LF_001" />
+			<class name="testCases.TC_LF_002" />
+			<class name="testCases.TC_LF_003" />
+			<class name="testCases.TC_LF_004" />
+			<class name="testCases.TC_LF_005" />
+			<class name="testCases.TC_LF_006" />
+			<class name="testCases.TC_LF_007" />
+
 			
 
 

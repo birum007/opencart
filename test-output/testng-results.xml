@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-10T23:27:58 IST" name="Master Suite" finished-at="2025-12-10T23:28:02 IST" duration-ms="4765">
+  <suite started-at="2025-12-17T01:08:01 IST" name="Master Suite" finished-at="2025-12-17T01:08:08 IST" duration-ms="7587">
     <groups>
       <group name="master">
-        <method signature="TC_ATC_008.validate_TC_ATC_008()[pri:0, instance:testCases.TC_ATC_008@625abb97]" name="validate_TC_ATC_008" class="testCases.TC_ATC_008"/>
+        <method signature="TC_LF_007.validate_TC_LF_007()[pri:0, instance:testCases.TC_LF_007@625abb97]" name="validate_TC_LF_007" class="testCases.TC_LF_007"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2025-12-10T23:27:58 IST" name="Test" finished-at="2025-12-10T23:28:02 IST" duration-ms="4765">
-      <class name="testCases.TC_ATC_008">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_ATC_008@625abb97]" started-at="2025-12-10T23:27:58 IST" name="setup" finished-at="2025-12-10T23:28:01 IST" duration-ms="2731" status="PASS">
+    <test started-at="2025-12-17T01:08:01 IST" name="Test" finished-at="2025-12-17T01:08:08 IST" duration-ms="7587">
+      <class name="testCases.TC_LF_007">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LF_007@625abb97]" started-at="2025-12-17T01:08:01 IST" name="setup" finished-at="2025-12-17T01:08:04 IST" duration-ms="2677" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validate_TC_ATC_008()[pri:0, instance:testCases.TC_ATC_008@625abb97]" started-at="2025-12-10T23:28:01 IST" name="validate_TC_ATC_008" finished-at="2025-12-10T23:28:02 IST" duration-ms="1582" status="PASS">
+        <test-method signature="validate_TC_LF_007()[pri:0, instance:testCases.TC_LF_007@625abb97]" started-at="2025-12-17T01:08:04 IST" name="validate_TC_LF_007" finished-at="2025-12-17T01:08:08 IST" duration-ms="4128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_TC_ATC_008 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_ATC_008@625abb97]" started-at="2025-12-10T23:28:02 IST" name="tearDown" finished-at="2025-12-10T23:28:02 IST" duration-ms="206" status="PASS">
+        </test-method> <!-- validate_TC_LF_007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LF_007@625abb97]" started-at="2025-12-17T01:08:08 IST" name="tearDown" finished-at="2025-12-17T01:08:08 IST" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_ATC_008 -->
+      </class> <!-- testCases.TC_LF_007 -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>
