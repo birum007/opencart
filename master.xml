@@ -9,7 +9,7 @@
 	<test thread-count="5" name="Test">
 
 		<parameter name="os" value="Windows" />
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="edge" />
 
 
 	<classes>
@@ -57,6 +57,8 @@
 			<class name="testCases.TC_LF_005" />
 			<class name="testCases.TC_LF_006" />
 			<class name="testCases.TC_LF_007" />
+			<class name="testCases.TC_LF_008" />
+			<class name="testCases.TC_LF_009" />
 
 			
 

@@ -48,6 +48,10 @@ public class LoginPage extends BasePage {
 	WebElement lnkForgotpassword;
 	@FindBy(xpath="//*[@id='content']/h1")
 	WebElement headingForgotPassword;
+	
+	//TC_LF_009
+	
+	
 
 	// Action Methods
 
@@ -116,5 +120,19 @@ public class LoginPage extends BasePage {
 		{
 			driver.switchTo().activeElement().sendKeys(Keys.ENTER);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@value='Login']")));
+		}
+		
+		public String getPlaceholderEmail()
+		{
+			return txtEmailAddress.getAttribute("placeholder");
+		}
+		public String getPlaceholderPwd()
+		{
+			return txtPass.getAttribute("placeholder");
+		}
+		
+		public void browserBack()
+		{
+			driver.navigate().back();
 		}
 }

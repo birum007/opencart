@@ -6,15 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC_LF_007">
+      <class name="testCases.TC_LF_009">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="validate_TC_LF_007"/>
+          <include name="validate_TC_LF_009"/>
         </methods>
-      </class> <!-- testCases.TC_LF_007 -->
+      </class> <!-- testCases.TC_LF_009 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
