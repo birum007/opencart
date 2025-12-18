@@ -22,34 +22,40 @@ public class LoginPage extends BasePage {
 	// locator
 
 	@FindBy(xpath = "//input[@id='input-email']")
-	WebElement txtEmailAddress;
+	private WebElement txtEmailAddress;
 
 	@FindBy(xpath = "//input[@id='input-password']")
-	WebElement txtPass;
+	private WebElement txtPass;
 
 	@FindBy(xpath = "//input[@value='Login']")
-	WebElement btnLogin;
+	private WebElement btnLogin;
 
 	// TC_LF_001
 
 	@FindBy(xpath = "//*[@id='account-login']/ul/li[3]")
-	WebElement loginPagemsg;
+	private WebElement loginPagemsg;
 	@FindBy(xpath = "//*[@id='content']/h2[1]")
-	WebElement myAccountPagemsg;
+	private WebElement myAccountPagemsg;
 
 	// TC_LF_002
 
 	@FindBy(xpath = "//*[text()='Warning: No match for E-Mail Address and/or Password.']")
-	WebElement loginWarningmsg;
+	private WebElement loginWarningmsg;
 
 	// TC_LF_006
 
 	@FindBy(xpath = "//*[@class='form-group']/a")
-	WebElement lnkForgotpassword;
+	private WebElement lnkForgotpassword;
 	@FindBy(xpath="//*[@id='content']/h1")
-	WebElement headingForgotPassword;
+	private WebElement headingForgotPassword;
 	
-	//TC_LF_009
+	//TC_LF_010
+	
+	@FindBy(xpath="//*[@id='top-links']/ul/li[2]/a/span")
+	private WebElement btnMyaccount;
+	
+	@FindBy(xpath="//*[@id='top-links']/ul/li[2]/ul/li[5]")
+	private WebElement btnLogout;
 	
 	
 
@@ -65,6 +71,13 @@ public class LoginPage extends BasePage {
 
 	public void clickLogin() {
 		btnLogin.click();
+	}
+	
+	public void clickLogin(int n) {
+		for(int i = 0;i<=n;i++)
+		{
+			btnLogin.click();
+		}
 	}
 
 	public boolean displayloginPagemsg() {
@@ -134,5 +147,18 @@ public class LoginPage extends BasePage {
 		public void browserBack()
 		{
 			driver.navigate().back();
+		}
+		public void click_btnMyaccount()
+		{
+			btnMyaccount.click();
+		}
+		public void click_btnLogout()
+		{
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='top-links']/ul/li[2]/ul/li[5]")));
+			btnLogout.click();
+		}
+		public String getAttributePass()
+		{
+			return txtPass.getAttribute("type");
 		}
 }

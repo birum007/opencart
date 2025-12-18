@@ -34,7 +34,6 @@ public class TC_LF_002 extends BaseClass{
 				Assert.fail();
 			}
 			
-			logger.info("********Finished *******************TC_LF_002**********************");
 		
 		}
 }

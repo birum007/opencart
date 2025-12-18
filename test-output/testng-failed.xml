@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC_LF_009">
+      <class name="testCases.TC_LF_012">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="validate_TC_LF_009"/>
+          <include name="validate_TC_LF_012"/>
         </methods>
-      </class> <!-- testCases.TC_LF_009 -->
+      </class> <!-- testCases.TC_LF_012 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

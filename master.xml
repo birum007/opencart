@@ -12,7 +12,7 @@
 		<parameter name="browser" value="edge" />
 
 
-	<classes>
+		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
 			<class name="testCases.TC002_LoginTest" />
 			<class name="testCases.TC003_LoginDDT" />
@@ -59,8 +59,9 @@
 			<class name="testCases.TC_LF_007" />
 			<class name="testCases.TC_LF_008" />
 			<class name="testCases.TC_LF_009" />
-
-			
+			<class name="testCases.TC_LF_010" />
+			<class name="testCases.TC_LF_012" />
+			<class name="testCases.TC_LF_013" />
 
 
 		</classes>
