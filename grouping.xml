@@ -26,9 +26,9 @@
 		<classes>
 <!--			<class name="testCases.TC001_AccountRegistrationTest" />-->
 <!--			<class name="TC_PC_024" /> -->
-<!--			<class name="testCases.TC_LG_003" />-->
+			<class name="testCases.TC_LG_003" />
 <!--			<class name="testCases.TC_PC_024" />-->
-			<class name="testCases.TC_ATC_008" />
+<!--			<class name="testCases.TC_ATC_008" />-->
 
 		</classes>
 	</test>
@@ -41,9 +41,9 @@
 		<classes>
 <!--			<class name="testCases.TC001_AccountRegistrationTest" />-->
 <!--			<class name="testCases.TC002_LoginTest" /> -->
-<!--			<class name="testCases.TC_LG_003" />-->
+			<class name="testCases.TC_LG_003" />
 <!--			<class name="testCases.TC_PC_024" />-->
-			<class name="testCases.TC_ATC_008" />
+<!--			<class name="testCases.TC_ATC_008" />-->
 
 		</classes>
 	</test>
@@ -55,9 +55,9 @@
 		<classes>
 <!--			<class name="testCases.TC001_AccountRegistrationTest" />-->
 <!--			<class name="testCases.TC002_LoginTest" /> -->
-<!--			<class name="testCases.TC_LG_003" />-->
+			<class name="testCases.TC_LG_003" />
 <!--			<class name="testCases.TC_PC_024" />-->
-			<class name="testCases.TC_ATC_008" />
+<!--			<class name="testCases.TC_ATC_008" />-->
 
 		</classes>
 	</test>

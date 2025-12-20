@@ -1,20 +1,61 @@
-2025-12-19 01:32:27 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-19 01:32:28 INFO  Utils:112 - [TestNG] Running:
+2025-12-21 00:01:32 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 00:01:33 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-19 01:32:32 INFO  TC_LF_010:15 - **********Started**********TC_LF_010*****************************
-2025-12-19 01:46:42 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-19 01:46:42 INFO  Utils:112 - [TestNG] Running:
+2025-12-21 00:01:36 INFO  TC_LG_002:14 - Starting ***********************TC_LG_002**************************
+2025-12-21 00:05:58 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 00:05:58 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-19 01:46:45 INFO  TC_LF_012:15 - Started *******************TC_LF_012*************************
-2025-12-19 01:58:20 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-19 01:58:20 INFO  Utils:112 - [TestNG] Running:
+2025-12-21 00:06:01 INFO  TC_LG_002:14 - Starting ***********************TC_LG_002**************************
+2025-12-21 00:07:06 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 00:07:07 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-19 01:58:23 INFO  TC_LF_013:15 - Starting ***************** TC_LF_013**************************
-2025-12-19 01:58:38 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-19 01:58:38 INFO  Utils:112 - [TestNG] Running:
+2025-12-21 00:07:10 INFO  TC_LG_002:14 - Starting ***********************TC_LG_002**************************
+2025-12-21 00:09:02 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 00:09:02 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-19 01:58:41 INFO  TC_LF_013:15 - Starting ***************** TC_LF_013**************************
+2025-12-21 00:09:05 INFO  TC_LG_002:14 - Starting ***********************TC_LG_002**************************
+2025-12-21 00:27:23 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 00:27:23 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-21 00:27:40 INFO  TC_LG_005:15 - Starting ***************************TC_LG_005******************
+2025-12-21 00:38:20 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 00:38:21 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-21 00:38:24 INFO  TC_LG_008:15 - Starting ***************************TC_LG_008*******************************
+2025-12-21 01:21:26 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 01:21:27 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-21 01:21:30 INFO  TC_LG_009:14 - Strating ********************TC_LG_009***************************
+2025-12-21 01:23:45 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 01:23:45 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-21 01:23:48 INFO  TC_LG_009:14 - Strating ********************TC_LG_009***************************
+2025-12-21 01:23:51 INFO  TC_LG_009:30 - Heading assertions
+2025-12-21 01:23:51 INFO  TC_LG_009:32 - Title assertions
+2025-12-21 01:23:51 INFO  TC_LG_009:35 - URL assertions
+2025-12-21 01:26:37 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 01:26:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-21 01:26:41 INFO  TC_LG_009:14 - Starting ********************TC_LG_009***************************
+2025-12-21 01:26:44 INFO  TC_LG_009:30 - Heading assertions
+2025-12-21 01:26:44 INFO  TC_LG_009:32 - Title assertions
+2025-12-21 01:26:44 INFO  TC_LG_009:35 - URL assertions
+2025-12-21 01:26:44 INFO  TC_LG_009:38 - Breadcrumb assertions
+2025-12-21 01:27:50 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2025-12-21 01:27:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2025-12-21 01:27:55 INFO  TC_LG_009:14 - Starting ********************TC_LG_009***************************
+2025-12-21 01:27:58 INFO  TC_LG_009:30 - Heading assertions
+2025-12-21 01:27:58 INFO  TC_LG_009:32 - Title assertions
+2025-12-21 01:27:58 INFO  TC_LG_009:35 - URL assertions
+2025-12-21 01:27:59 INFO  TC_LG_009:38 - Breadcrumb assertions
