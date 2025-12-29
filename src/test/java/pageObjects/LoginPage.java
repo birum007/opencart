@@ -89,8 +89,44 @@ public class LoginPage extends BasePage {
 	
 	@FindBy(xpath="//*[@class='breadcrumb']/li/a")
 	private List<WebElement> breadcrumbElement;
+	//TC_LG_006
+	
+	@FindBy(xpath="//*[@id='column-right']/div/a")
+	private List<WebElement> rightColoumnOptions;
+	//TC_LG_004
+	@FindBy(xpath="//*[@id='column-right']/div/a[1]")
+	private WebElement myAccount;
+	@FindBy(xpath="//*[text()='Returning Customer']")
+	WebElement loginMassage;
 
 	// Action Methods
+	
+//	/TC_LG_004
+	public boolean display_loginMassage()
+	{
+		return loginMassage.isDisplayed();
+	}
+	public void click_myAccount()
+	{
+		myAccount.click();
+	}
+	public void browserBackAfterLogout()
+	{
+		driver.navigate().back();
+	}
+	
+	public boolean isLogoutPresent()
+	{
+		boolean target=true;
+		for(WebElement element : rightColoumnOptions )
+		{
+			if(element.getText()=="Logout")
+			{
+				target=true;
+			}
+		}
+		return false;
+	}
 	
 	public boolean getElement()
 	{
