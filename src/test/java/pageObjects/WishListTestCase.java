@@ -22,6 +22,79 @@ public class WishListTestCase extends BasePage {
 	private WebElement linkWishList;
 	@FindBy(xpath = "//*[text()='Apple Cinema 30\"']")
 	private WebElement prdDisplayconfrm;
+	
+	//TC_WL_003
+	@FindBy(xpath="//*[text()='Qafox.com']")
+	private WebElement pageLogo;
+	@FindBy(xpath="//*[@id='content']/div[2]/div[1]/div/div[3]/button[2]")
+	private WebElement wishToCartFeature;
+	@FindBy(xpath="//*[@id='common-home']/div/a[2]")
+	private WebElement linkwishlistfeature;
+	@FindBy(xpath="//*[@id='content']/div[1]/table/tbody/tr/td[2]/a")
+	private WebElement wishListprdDisplay;
+	
+	//TC_WL_004
+	
+	@FindBy(xpath="//*[text()='Desktops']")
+	private WebElement menuDesktops;
+	@FindBy(xpath="//*[text()='Show AllDesktops']")
+	private WebElement showAllDesktops;
+	@FindBy(xpath="//*[@id='column-left']/div/a[3]")
+	private WebElement MacLeftSubMenu;
+	@FindBy(xpath="//button[@data-original-title='Add to Wish List']")
+	private WebElement addTocartButton;
+	@FindBy(xpath="//*[text()='wish list']")
+	private WebElement linkWish;
+	@FindBy(xpath="//*[@id='content']/div[1]/table[1]/tbody[1]/tr/td[2]/a")
+	private WebElement productWishList;
+	
+	public boolean display_productWishList()
+	{
+		return productWishList.isDisplayed();
+	}
+	
+	public void click_linkWish()
+	{
+		linkWish.click();
+	}
+	public void click_addTocartButton()
+	{
+		addTocartButton.click();
+	}
+	
+	public void click_MacLeftSubMenu()
+	{
+		MacLeftSubMenu.click();
+	}
+	public void hoverOverElement()
+	{
+		actionUtils.hoverOverElement(menuDesktops);
+		actionUtils.clickElement(showAllDesktops);
+	}
+	
+	public String displayPrd()
+	{
+		return wishListprdDisplay.getText();
+	}
+	public void click_linkwishlistfeature()
+	{
+		linkwishlistfeature.click();
+	}
+	public void click_wishToCartFeature()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView(true)", wishToCartFeature);
+		wishToCartFeature.click();
+	}
+	
+	public boolean displayLogo()
+	{
+		return pageLogo.isDisplayed();
+	}
+	public void clickLogo()
+	{
+		pageLogo.click();
+	}
 
 	public void clickImac() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -50,5 +123,6 @@ public class WishListTestCase extends BasePage {
 	public boolean prdDisplayconfirmation() {
 		return prdDisplayconfrm.isDisplayed();
 	}
+	
 
 }
