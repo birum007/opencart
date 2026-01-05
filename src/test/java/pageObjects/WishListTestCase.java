@@ -48,6 +48,73 @@ public class WishListTestCase extends BasePage {
 	@FindBy(xpath="//*[@id='content']/div[1]/table[1]/tbody[1]/tr/td[2]/a")
 	private WebElement productWishList;
 	
+	
+	//TC_WL_005
+	@FindBy(xpath="//*[@data-original-title='Add to Wish List']")
+	private WebElement btnwishList;
+	@FindBy(xpath="//*[text()=' Success: You have added ']")
+	private WebElement msgAfterClickwish;
+	@FindBy(xpath="//*[@id='product-search']/div[1]/a[2]")
+	private WebElement lnkWishList;
+	@FindBy(xpath="//*[@id='content']/div[1]/table/tbody/tr/td[2]")
+	private WebElement wishListedPrd;
+	
+	
+	//TC_WL_006
+	@FindBy(xpath="//*[@id='content']/div[3]/div/div/div/a")
+	private WebElement searchResultImac;
+	@FindBy(xpath="//*[@id='content']/div/div[2]/div/button[1]")
+	private WebElement rightBtnAddToWishList;
+	@FindBy(xpath="//*[text()='wish list']")
+	private WebElement lnkWishListRight;
+	@FindBy(xpath="//*[@id='content']/h2")
+	private WebElement headerWishListPage;
+	
+	
+	public boolean wishListHeader()
+	{
+		String msg = headerWishListPage.getText();
+		return (msg.contains("Wish") && msg!=null);
+	}
+	public void click_lnkWishListRight()
+	{
+		lnkWishListRight.click();
+	}
+	
+	
+	public void click_rightBtnAddToWishList()
+	{
+		rightBtnAddToWishList.click();
+	}
+	
+	public void click_searchResultImac()
+	{
+		searchResultImac.click();
+	}
+	
+	
+	public boolean displayProduct()
+	{
+		return wishListedPrd.isDisplayed();
+	}
+	
+	public void click_lnkWishList()
+	{
+		lnkWishList.click();
+	}
+	public boolean msgDisplayed()
+	{
+		String msg =msgAfterClickwish.getText();
+		return (msg.contains("Success") && msg!= null);
+	}
+	
+	public void clickAddTowishBtn()
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView(true)", btnwishList);
+		btnwishList.click();
+	}
+	
 	public boolean display_productWishList()
 	{
 		return productWishList.isDisplayed();

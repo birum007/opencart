@@ -73,6 +73,8 @@
 			<class name="testCases.TC_WL_002" />
 			<class name="testCases.TC_WL_003" />
 			<class name="testCases.TC_WL_004" />
+			<class name="testCases.TC_WL_005" />
+			<class name="testCases.TC_WL_006" />
 
 
 		</classes>

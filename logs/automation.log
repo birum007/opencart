@@ -1,10 +1,46 @@
-2025-12-31 00:46:44 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-31 00:46:44 INFO  Utils:112 - [TestNG] Running:
+2026-01-05 22:59:22 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-05 22:59:23 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-31 00:46:48 INFO  TC_WL_003:15 - Starting **************************************TC_WL_003****************************************
-2025-12-31 02:06:09 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2025-12-31 02:06:09 INFO  Utils:112 - [TestNG] Running:
+2026-01-05 22:59:26 INFO  TC_WL_005:16 - Starting *********************************TC_WL_005*****************************
+2026-01-05 23:02:17 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-05 23:02:17 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2025-12-31 02:06:13 INFO  TC_WL_004:16 - Starting **********************************TC_WL_004****************************************
+2026-01-05 23:02:20 INFO  TC_WL_005:16 - Starting *********************************TC_WL_005*****************************
+2026-01-05 23:03:28 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-05 23:03:29 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-05 23:03:32 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
+2026-01-05 23:03:57 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-05 23:03:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-05 23:04:00 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
+2026-01-05 23:04:47 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-05 23:04:47 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-05 23:04:49 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
+2026-01-05 23:07:45 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-05 23:07:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-05 23:07:48 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
+2026-01-05 23:09:15 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-05 23:09:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-05 23:09:17 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
+2026-01-05 23:46:42 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-05 23:46:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-05 23:46:45 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
+2026-01-05 23:46:49 INFO  TC_WL_006:17 - Starting***********************TC_WL_006********************************
+2026-01-05 23:47:12 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-05 23:47:12 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-05 23:47:21 INFO  TC_WL_006:17 - Starting***********************TC_WL_006********************************
