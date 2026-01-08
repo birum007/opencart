@@ -70,7 +70,58 @@ public class WishListTestCase extends BasePage {
 	@FindBy(xpath="//*[@id='content']/h2")
 	private WebElement headerWishListPage;
 	
+	//TC_WL_007
+	@FindBy(xpath="//*[@id='wishlist-total']")
+	private WebElement totalWishlistHeaderbtn;
+	@FindBy(xpath="//h2[text()='My Wish List']")
+	private WebElement headerWishList;
 	
+	//TC_WL_008
+	@FindBy(xpath="//*[@id='column-right']/div/a[5]")
+	private WebElement rightColoumnWishListbtn;
+	
+	//TC_WL_009
+	@FindBy(xpath="//*[@id='column-right']/div/a[1]")
+	private WebElement rightColoumnMyaccountPage;
+	@FindBy(xpath="//*[@id='account-account']/div/div/ul[1]/li[4]/a")
+	private WebElement lnkModifyWishList;
+	
+	//TC_WL_010
+	@FindBy(xpath="/html/body/footer/div/div/div[4]/ul/li[3]/a")
+	private WebElement footerWishListlnk;
+	
+	public void click_footerWishListlnk()
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView(true)", footerWishListlnk);
+		//footerWishListlnk.click();
+		js.executeScript("arguments[0].click()", footerWishListlnk);
+
+	}
+	
+	public void click_lnkModifyWishList()
+	{
+		lnkModifyWishList.click();
+	}
+	
+	public void clickrightColoumnMyaccountPage()
+	{
+		rightColoumnMyaccountPage.click();
+	}
+	
+	public void clickRightColoumnWishListbtn()
+	{
+		rightColoumnWishListbtn.click();
+	}
+	
+	public boolean displayheaderWishList()
+	{
+		return headerWishList.isDisplayed();
+	}
+	public void clickWishListHeader()
+	{
+		totalWishlistHeaderbtn.click();
+	}
 	public boolean wishListHeader()
 	{
 		String msg = headerWishListPage.getText();

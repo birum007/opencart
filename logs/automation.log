@@ -1,46 +1,79 @@
-2026-01-05 22:59:22 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2026-01-05 22:59:23 INFO  Utils:112 - [TestNG] Running:
+2026-01-09 00:18:22 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:18:23 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2026-01-05 22:59:26 INFO  TC_WL_005:16 - Starting *********************************TC_WL_005*****************************
-2026-01-05 23:02:17 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2026-01-05 23:02:17 INFO  Utils:112 - [TestNG] Running:
+2026-01-09 00:18:25 INFO  TC_WL_010:16 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:18:27 INFO  TC_WL_010:26 - **********************User is Logged in********************************************
+2026-01-09 00:18:28 INFO  TC_WL_010:35 - **********************Product is added in the wishList cart*************************
+2026-01-09 00:20:02 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:20:02 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2026-01-05 23:02:20 INFO  TC_WL_005:16 - Starting *********************************TC_WL_005*****************************
-2026-01-05 23:03:28 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2026-01-05 23:03:29 INFO  Utils:112 - [TestNG] Running:
+2026-01-09 00:20:05 INFO  TC_WL_010:16 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:20:07 INFO  TC_WL_010:26 - **********************User is Logged in********************************************
+2026-01-09 00:20:10 INFO  TC_WL_010:35 - **********************Product is added in the wishList cart*************************
+2026-01-09 00:20:55 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:20:56 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2026-01-05 23:03:32 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
-2026-01-05 23:03:57 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2026-01-05 23:03:58 INFO  Utils:112 - [TestNG] Running:
+2026-01-09 00:20:58 INFO  TC_WL_010:16 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:20:59 INFO  TC_WL_010:26 - **********************User is Logged in********************************************
+2026-01-09 00:21:01 INFO  TC_WL_010:35 - **********************Product is added in the wishList cart*************************
+2026-01-09 00:23:29 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:23:30 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2026-01-05 23:04:00 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
-2026-01-05 23:04:47 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2026-01-05 23:04:47 INFO  Utils:112 - [TestNG] Running:
+2026-01-09 00:23:32 INFO  TC_WL_010:17 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:23:34 INFO  TC_WL_010:27 - **********************User is Logged in********************************************
+2026-01-09 00:23:35 INFO  TC_WL_010:36 - **********************Product is added in the wishList cart*************************
+2026-01-09 00:25:57 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:25:57 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2026-01-05 23:04:49 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
-2026-01-05 23:07:45 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2026-01-05 23:07:46 INFO  Utils:112 - [TestNG] Running:
+2026-01-09 00:26:00 INFO  TC_WL_010:17 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:28:05 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:28:06 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2026-01-05 23:07:48 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
-2026-01-05 23:09:15 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2026-01-05 23:09:15 INFO  Utils:112 - [TestNG] Running:
+2026-01-09 00:28:08 INFO  TC_WL_010:17 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:30:23 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:30:23 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2026-01-05 23:09:17 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
-2026-01-05 23:46:42 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2026-01-05 23:46:42 INFO  Utils:112 - [TestNG] Running:
+2026-01-09 00:30:26 INFO  TC_WL_010:17 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:30:29 INFO  TC_WL_010:27 - **********************User is Logged in********************************************
+2026-01-09 00:30:31 INFO  TC_WL_010:36 - **********************Product is added in the wishList cart*************************
+2026-01-09 00:31:21 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:31:21 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2026-01-05 23:46:45 INFO  TC_WL_005:17 - Starting *********************************TC_WL_005*****************************
-2026-01-05 23:46:49 INFO  TC_WL_006:17 - Starting***********************TC_WL_006********************************
-2026-01-05 23:47:12 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
-2026-01-05 23:47:12 INFO  Utils:112 - [TestNG] Running:
+2026-01-09 00:31:24 INFO  TC_WL_010:17 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:31:24 INFO  TC_WL_010:27 - **********************User is Logged in********************************************
+2026-01-09 00:33:26 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:33:27 INFO  Utils:112 - [TestNG] Running:
   C:\Users\Birendra\eclipse-workspace\opencart\master.xml
 
-2026-01-05 23:47:21 INFO  TC_WL_006:17 - Starting***********************TC_WL_006********************************
+2026-01-09 00:33:30 INFO  TC_WL_010:17 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:33:31 INFO  TC_WL_010:27 - **********************User is Logged in********************************************
+2026-01-09 00:33:33 INFO  TC_WL_010:36 - **********************Product is added in the wishList cart*************************
+2026-01-09 00:35:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:35:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-09 00:35:32 INFO  TC_WL_010:17 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:35:33 INFO  TC_WL_010:27 - **********************User is Logged in********************************************
+2026-01-09 00:35:35 INFO  TC_WL_010:36 - **********************Product is added in the wishList cart*************************
+2026-01-09 00:39:28 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:39:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-09 00:39:30 INFO  TC_WL_010:17 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:39:32 INFO  TC_WL_010:27 - **********************User is Logged in********************************************
+2026-01-09 00:39:33 INFO  TC_WL_010:36 - **********************Product is added in the wishList cart*************************
+2026-01-09 00:39:38 INFO  TC_WL_010:41 - **********************WishList Page validation*************************
+2026-01-09 00:40:01 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\Birendra\eclipse-workspace\opencart\master.xml"
+2026-01-09 00:40:01 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Birendra\eclipse-workspace\opencart\master.xml
+
+2026-01-09 00:40:05 INFO  TC_WL_010:17 - ***************Starting ************************TC_WL_010**************************
+2026-01-09 00:40:06 INFO  TC_WL_010:27 - **********************User is Logged in********************************************
