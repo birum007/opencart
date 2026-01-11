@@ -90,6 +90,51 @@ public class WishListTestCase extends BasePage {
 	@FindBy(xpath="/html/body/footer/div/div/div[4]/ul/li[3]/a")
 	private WebElement footerWishListlnk;
 	
+	//TC_WL_011
+	@FindBy(css="ul.breadcrumb")
+	private WebElement breadcrumbLnk;
+	
+	//TC_WL_013
+	@FindBy(xpath="//*[@id='content']/p")
+	private WebElement wishListEmptymsg;
+	@FindBy(xpath="//*[text()='Continue']")
+	private WebElement btnContinou;
+	@FindBy(xpath="//*[@id ='content']/h2[1]")
+	private WebElement accountPagemsg;
+	
+	public boolean display_accountPagemsg()
+	{
+		return accountPagemsg.isDisplayed();
+	}
+	
+	public void clickOnbtnContinou()
+	{
+		btnContinou.click();
+	}
+	
+	public  String getEmptymsg()
+	{
+		return wishListEmptymsg.getText().trim();
+	}
+	public String getURL()
+	{
+		return driver.getCurrentUrl();
+	}
+	public String getPageTitle()
+	{
+		return driver.getTitle();
+	}
+	
+	public String getHeading()
+	{
+		return pageLogo.getText().trim();
+	}
+	
+	public boolean displaybreadcrumbLnk()
+	{
+		return breadcrumbLnk.isDisplayed();
+	}
+	
 	public void click_footerWishListlnk()
 	{
 		JavascriptExecutor js = (JavascriptExecutor)driver;
